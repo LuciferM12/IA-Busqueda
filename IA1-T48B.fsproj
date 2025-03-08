@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>IA1_T48B</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Cola.fs" />
+    <Compile Include="Pila.fs" />
+    <Compile Include="Busqueda.fs" />
+    <Compile Include="OchoCasillas.fs" />
+    <Compile Include="CostoUniforme.fs" />
+    <Compile Include="DFSL.fs" />
+    <Compile Include="IDFSL.fs" />
+    <Compile Include="DFS.fs" />
+    <Compile Include="BFS.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
