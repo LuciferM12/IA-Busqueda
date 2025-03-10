@@ -1,7 +1,7 @@
 namespace Busqueda
 
 module OchoCasillas = 
-    type estado = int * int * int * int * int * int * int * int
+    type estado = int * int * int * int * int * int * int * int * int
     type accion = 
         | Left
         | Right
