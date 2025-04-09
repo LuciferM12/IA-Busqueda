@@ -5,7 +5,9 @@ open BFS
 //open DFS
 //open OchoCasillas
 //open VacuumWorld
-open WolfGoatCabbage
+//open WolfGoatCabbage
+//open PuenteTambaleante
+open ChangoPlatano
 
 //busqueda_arbol (problema inicial2) estrategia
 //busqueda_arbol (problema inicial2) (CostoUniforme.estrategia (fun n -> n.g, n.estado))
@@ -17,7 +19,7 @@ open WolfGoatCabbage
 //busqueda_grafo (problema inicial) DFS.estrategia DFS.key
 //busqueda_grafo (problema inicial) (DFSL.estrategia 23) DFSL.key
 //busqueda_grafo (problema inicial) CostoUniforme.estrategia CostoUniforme.key
-IDFSL.IDFSL (problema (1, 1, 0, 1))
+IDFSL.IDFSL (problema inicial)
 
 |> Option.map acciones
 |> Option.map (fun xs -> List.length xs, xs)

@@ -13,6 +13,8 @@
     <Compile Include="OchoCasillas.fs" />
     <Compile Include="VacuumWorld.fs" />
     <Compile Include="WolfGoatCabbage.fs" />
+    <Compile Include="MrWolfMrGoatMrCabbage.fs" />
+    <Compile Include="MonkeyAndBanana.fs" />
     <Compile Include="CostoUniforme.fs" />
     <Compile Include="DFSL.fs" />
     <Compile Include="IDFSL.fs" />
